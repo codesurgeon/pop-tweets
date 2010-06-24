@@ -1,0 +1,9 @@
+﻿pop-tweets is sample code. In its current state it is intended for demo purposes only. 
+It is supposed to showcase a potential application of the new dynamic capabilities of C# 4.0 / .NET 4
+The talk is scheduled for June 25th, 2010. The slides will be made available via a link in the README.
+Please feel free to fork, improve and share the code. I'd appreciate a pull request.
+
+My code is licensed under the BSD license. For information on the JSON parser code, see
+http://techblog.procurios.nl/k/618/news/view/14605/14863/How-do-I-write-my-own-parser-for-JSON.html
+
+Mustafa K. Isik (c) 2010, email: mustafa ÄT codesurgeon DÖT com
