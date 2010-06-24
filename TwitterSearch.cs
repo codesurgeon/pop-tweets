@@ -28,7 +28,6 @@ namespace com.codesurgeon.sample.dotnet4dynamic
             string url = baseSearchUrl + query;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            //Console.WriteLine("Requesting: " + url);
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
             Stream responseStream = response.GetResponseStream();
@@ -45,8 +44,6 @@ namespace com.codesurgeon.sample.dotnet4dynamic
             {
                 searchResult.Add(new Tweet((Hashtable) rawTweet));
             }
-            
-            //Console.WriteLine(responseString);
 
             response.Close();
         }
